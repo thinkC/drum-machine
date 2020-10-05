@@ -190,19 +190,17 @@ border:1px solid #00b3b4; */
 }
 
 @media screen and (max-width: 600px){
-    h1{
-        color: red;
-    }
+ 
     .btn-key {
         border: 1px solid #222;
         padding: 5px;
-        /* margin-right: 5px; */
         margin-bottom: 5px;
         margin-top: 5px;
         height: 3.5rem;
         width : 3rem;
         background-color: var(--mainCharcoal);
         color: #fff;
+        margin-left: 5px;
         
     }
 }
