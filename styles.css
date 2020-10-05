@@ -80,7 +80,7 @@ h1{
     background-color: var(--mainCharcoal);
     color: #fff;
     font-family: 'Courier Prime', monospace;
-    
+    font-weight: bolder;
 }
 .btn-power{
     margin-top: 2rem;
@@ -93,7 +93,6 @@ h1{
     display: inline-block;
     vertical-align: top;
     margin: 0 15px 0 0;
-    
 }
 
 .final__toggle-1__input {
@@ -131,6 +130,7 @@ h1{
     content: "off";
     transition: all 0.3s ease;
     font-family: 'Courier Prime', monospace;
+    
 }
 
 .final__toggle-1__input:checked+.final__toggle-1__button {
@@ -163,9 +163,12 @@ border:1px solid #00b3b4; */
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     font-family: 'Courier Prime', monospace;
-    
-
+    border-radius: 0.25rem;
+    border: 1px solid #fff;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
+
 
 .vol-icon {
     font-size: 2rem;
@@ -189,7 +192,7 @@ border:1px solid #00b3b4; */
     padding-top: 10px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 550px){
  
     .btn-key {
         border: 1px solid #222;
@@ -202,5 +205,8 @@ border:1px solid #00b3b4; */
         color: #fff;
         margin-left: 5px;
         
+    }
+    .btn-power{
+        margin-left: 2rem;
     }
 }
